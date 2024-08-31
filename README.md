@@ -1,65 +1,48 @@
-[README.md](https://github.com/user-attachments/files/16736466/README.md)# Diwali Sales Analysis
+Diwali Sale Analysis
+Project Overview
+This project aims to analyze sales data from a Diwali sale event to uncover insights that can inform marketing strategies, customer segmentation, and product performance. The analysis was conducted using Python, leveraging libraries like Pandas, NumPy, Matplotlib, and Seaborn for data processing, visualization, and statistical analysis.
 
-This project provides a comprehensive analysis of the Diwali sales dataset. It involves data cleaning, exploratory data analysis (EDA), and visualization to uncover insights about sales patterns.
 
-## Dataset
+#TOOLS & TECHNOLOGIES
 
-The dataset `diwali_sales.csv` contains sales data with the following columns:
 
-- **User_ID**: Unique identifier for each user.
-- **Cust_name**: Customer's name.
-- **Product_ID**: Unique identifier for each product.
-- **Gender**: Gender of the customer.
-- **Age Group**: Age group of the customer.
-- **Age**: Age of the customer.
-- **Marital_Status**: Marital status of the customer (0: Single, 1: Married).
-- **State**: State where the purchase was made.
-- **Zone**: Zone of the state.
-- **Occupation**: Occupation of the customer.
-- **Product_Category**: Category of the purchased product.
-- **Orders**: Number of orders placed.
-- **Amount**: Total amount spent.
+Programming Language: Python
+Libraries:
+Pandas for data manipulation
+NumPy for numerical operations
+Matplotlib & Seaborn for data visualization
+Scikit-learn for clustering and segmentation analysis
+Jupyter Notebook: For interactive data analysis and visualization
+SQLite: For storing and querying large datasets (optional)
 
-## Data Cleaning
+#KEY FINDINGS
 
-- **Dropping Unnecessary Columns**: Removed columns `Status` and `unnamed1` as they contained no useful information.
-- **Handling Missing Values**: Dropped rows with missing values in the `Amount` column.
-- **Data Type Conversion**: Converted the `Amount` column to integer type for better analysis.
+Top Performing Products: The analysis revealed that electronic gadgets were the most purchased items during the Diwali sale.
+Customer Segmentation: Younger customers (aged 18-25) were the most active during the sale, especially in urban areas.
+Sales Trends: The highest sales volume was observed in the first two days of the Diwali festival, indicating the effectiveness of early promotional offers.
 
-## Exploratory Data Analysis (EDA)
+#OUTPUT
 
-### Gender Analysis
+![image](https://github.com/user-attachments/assets/563d5270-9807-4fb0-987c-9c13985a5b28)
 
-- **Distribution of Genders**: Visualized the count of male and female buyers using a bar chart.
-- **Total Amount by Gender**: Analyzed the total amount spent by each gender.
+![image](https://github.com/user-attachments/assets/01449a69-0de0-4faa-8adc-4d80809b3c60)
 
-### Age Analysis
+![image](https://github.com/user-attachments/assets/a8a2c05f-4f08-4720-9364-e9eaba2ebad5)
 
-- **Age Group Distribution**: Explored the distribution of buyers across different age groups.
-- **Total Amount by Age Group**: Visualized the total amount spent by each age group.
+![image](https://github.com/user-attachments/assets/d2792a30-339e-4235-baa4-d845252f3169)
 
-### State Analysis
+![image](https://github.com/user-attachments/assets/b6181a31-3f96-4f2f-ad18-8da1e2a4b642)
 
-- **Top States by Number of Orders**: Identified the top 10 states with the highest number of orders.
-- **Top States by Total Sales**: Analyzed the top 10 states with the highest total sales amount.
+![image](https://github.com/user-attachments/assets/32f16add-1ba8-4acb-b6b6-ff019c0980ae)
 
-### Marital Status Analysis
+![image](https://github.com/user-attachments/assets/6610d980-7418-4432-a2f6-b0c19f4fb631)
 
-- **Distribution of Marital Status**: Visualized the count of orders based on marital status.
+![image](https://github.com/user-attachments/assets/a824aba1-3207-45c5-94b4-d16aa059a901)
 
-## Visualizations
+![image](https://github.com/user-attachments/assets/df69d4bd-bd55-417b-a706-c5ffc8f21a14)
 
-- **Gender Distribution**: Shows that most buyers are female and their purchasing power is higher.
-- **Age Group Analysis**: Provides insights into which age groups are spending more.
-- **State Analysis**: Highlights states with the highest number of orders and sales amount, with Uttar Pradesh and Karnataka being significant contributors.
-- **Marital Status Distribution**: Illustrates the purchasing pattern based on marital status.
+![image](https://github.com/user-attachments/assets/44ca80db-7566-47be-9b55-595d9e0951df)
 
-## Libraries Used
+![image](https://github.com/user-attachments/assets/3f7d3293-2fef-4aa4-9bcd-d78e91e0e403)
 
-- `numpy` for numerical operations
-- `pandas` for data manipulation
-- `matplotlib` and `seaborn` for data visualization
-g README.md…]()
-
-## Conclusion
-This analysis provides insights into customer behavior during Diwali sales, helping businesses understand spending patterns and customer demographics.
+![image](https://github.com/user-attachments/assets/2f0623fb-fc5a-4940-a9d0-3817d365e332)
